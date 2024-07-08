@@ -267,12 +267,7 @@ const index = () => {
                 marginRight: "auto",
               }}
             >
-              <Image
-                style={{ width: 200, height: 200, resizeMode: "contain" }}
-                source={{
-                  uri: "https://cdn-icons-png.flaticon.com/128/2387/2387679.png",
-                }}
-              />
+            
               <Text
                 style={{
                   fontSize: 16,
@@ -281,7 +276,7 @@ const index = () => {
                   textAlign: "center",
                 }}
               >
-                No Tasks for today! add a task
+                No Journals for today! add a Journal
               </Text>
               <Pressable
                 onPress={() => setModalVisible(!isModalVisible)}

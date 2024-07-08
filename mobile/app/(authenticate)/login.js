@@ -58,7 +58,7 @@ const login = () => {
     >
       <View style={{ marginTop: 80 }}>
         <Text style={{ fontSize: 18, fontWeight: "600", color: "#0066b2" }}>
-          TODO-LIST TRACKER
+          JOURNAL APP
         </Text>
       </View>
       <KeyboardAvoidingView>
@@ -138,10 +138,7 @@ const login = () => {
               justifyContent: "space-between",
             }}
           >
-            <Text>Keep me logged in</Text>
-            <Text style={{ color: "#007FFF", fontWeight: "500" }}>
-              Forgot Password
-            </Text>
+            
           </View>
 
           <View style={{ marginTop: 60 }} />

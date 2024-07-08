@@ -65,7 +65,7 @@ const IndexScreen = () => {
         <Image
           style={styles.profileImage}
           source={{
-            uri: 'https://lh3.googleusercontent.com/ogw/ANLem4Zmk7fohWyH7kB6YArqFy0WMfXnFtuX3PX3LSBf=s64-c-mo',
+            uri: 'https://picsum.photos/id/103/2592/1936.jpg?hmac=aC1FT3vX9bCVMIT-KXjHLhP6vImAcsyGCH49vVkAjPQ',
           }}
         />
         <View style={styles.profileText}>
