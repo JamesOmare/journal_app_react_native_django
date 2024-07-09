@@ -10,8 +10,6 @@ This project is a simple journal mobile built using reactnative using expo and f
   - [Installation](#installation)
 - [Project Structure](#project-structure)
 - [Features](#features)
-- [Testing](#testing)
-- [CI/CD](#cicd)
 - [License](#license)
 
 ## Getting Started
