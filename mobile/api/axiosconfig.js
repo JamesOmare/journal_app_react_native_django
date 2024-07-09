@@ -3,8 +3,9 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useRouter } from "expo-router";
 
 
+// Change the baseURL to your ngrok URL
 const api = axios.create({
-  baseURL: 'https://valued-bluebird-usable.ngrok-free.app/api/',
+  baseURL: '{your-ngrok-url}/api/',
 });
 
 

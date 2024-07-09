@@ -40,7 +40,8 @@ const login = () => {
       password: password,
     };
 
-    axios.post("https://valued-bluebird-usable.ngrok-free.app/api/auth/login/", user).then((response) => {
+    // Change the baseURL to your ngrok URL
+    axios.post("{your-ngrok-url}/api/auth/login/", user).then((response) => {
       const { access, refresh } = response.data;
       // Store tokens in AsyncStorage
       AsyncStorage.setItem('access_token', access);

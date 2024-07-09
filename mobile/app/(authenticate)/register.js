@@ -26,7 +26,7 @@ import axios from "axios";
             password:password
         }
 
-        axios.post("https://valued-bluebird-usable.ngrok-free.app/api/auth/register/",user).then((response) => {
+        axios.post("{your-ngrok-url}/api/auth/register/",user).then((response) => {
             console.log(response);
             Alert.alert("Registration successfull","You have been registered succesfully. Please Log In to continue");
             setEmail("");

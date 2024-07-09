@@ -10,7 +10,6 @@ import {
   Alert,
 } from "react-native";
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useRouter } from "expo-router";
 import api from "../../../api/axiosconfig";
@@ -19,8 +18,6 @@ import { Entypo } from "@expo/vector-icons";
 
 
 const IndexScreen = () => {
-  const [completedTasks, setCompletedTasks] = useState(0);
-  const [pendingTasks, setPendingTasks] = useState(0);
   const router = useRouter();
   const [selectedCategory, setSelectedCategory] = useState('Daily');
   const [publishedJournals, setpublishedJournals] = useState([]);
